@@ -1,0 +1,111 @@
+[*]
+[*] GTKWave Analyzer v3.3.118 (w)1999-2023 BSI
+[*] Sat Aug 16 17:18:19 2025
+[*]
+[dumpfile] "C:\Users\Sonia\OneDrive\Desktop\RISC-V Project\Single_Cycle.vcd"
+[dumpfile_mtime] "Sat Aug 16 17:01:44 2025"
+[dumpfile_size] 4053
+[savefile] "C:\Users\Sonia\OneDrive\Desktop\RISC-V Project\risc_single.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -165 -165
+*-6.850445 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Single_Cycle_tb.
+[treeopen] Single_Cycle_tb.Single_Cycle_top.
+[treeopen] Single_Cycle_tb.Single_Cycle_top.CU_inst.
+[sst_width] 174
+[signals_width] 233
+[sst_expanded] 1
+[sst_vpaned_height] 225
+@28
+Single_Cycle_tb.clk
+Single_Cycle_tb.rst
+@800200
+-PC
+@200
+-
+@22
+Single_Cycle_tb.Single_Cycle_top.PC_inst.PC_Next[31:0]
+Single_Cycle_tb.Single_Cycle_top.PC_inst.PC[31:0]
+@1000200
+-PC
+@800200
+-PCAdder
+@200
+-
+@22
+Single_Cycle_tb.Single_Cycle_top.PCAdder_inst.a[31:0]
+Single_Cycle_tb.Single_Cycle_top.PCAdder_inst.b[31:0]
+Single_Cycle_tb.Single_Cycle_top.PCAdder_inst.c[31:0]
+@1000200
+-PCAdder
+@800200
+-sign_extend
+@200
+-
+@22
+Single_Cycle_tb.Single_Cycle_top.SignExt_inst.In[31:0]
+Single_Cycle_tb.Single_Cycle_top.SignExt_inst.Imm_Ext[31:0]
+@1000200
+-sign_extend
+@800200
+-instr_mem
+@200
+-
+@22
+Single_Cycle_tb.Single_Cycle_top.InstrMem_inst.A[31:0]
+Single_Cycle_tb.Single_Cycle_top.InstrMem_inst.RD[31:0]
+@1000200
+-instr_mem
+@800200
+-regfile
+@200
+-
+@22
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.A1[4:0]
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.A1[4:0]
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.A2[4:0]
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.A3[4:0]
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.RD1[31:0]
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.RD2[31:0]
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.WD3[31:0]
+@28
+Single_Cycle_tb.Single_Cycle_top.RegFile_inst.WE3
+@1000200
+-regfile
+@800200
+-ALU
+@200
+-
+@28
+Single_Cycle_tb.Single_Cycle_top.ALU_inst.ALUControl[2:0]
+@22
+Single_Cycle_tb.Single_Cycle_top.ALU_inst.A[31:0]
+Single_Cycle_tb.Single_Cycle_top.ALU_inst.B[31:0]
+Single_Cycle_tb.Single_Cycle_top.ALU_inst.Result[31:0]
+@1000200
+-ALU
+@800200
+-ControlUnit
+@200
+-
+@22
+Single_Cycle_tb.Single_Cycle_top.CU_inst.Op[6:0]
+@28
+Single_Cycle_tb.Single_Cycle_top.CU_inst.funct3[2:0]
+Single_Cycle_tb.Single_Cycle_top.CU_inst.MD.RegWrite
+@1000200
+-ControlUnit
+@800200
+-DATAMEM
+@200
+-
+@22
+Single_Cycle_tb.Single_Cycle_top.DM_inst.A[31:0]
+Single_Cycle_tb.Single_Cycle_top.DM_inst.RD[31:0]
+@29
+Single_Cycle_tb.Single_Cycle_top.DM_inst.WE
+@1000200
+-DATAMEM
+[pattern_trace] 1
+[pattern_trace] 0
