@@ -1,5 +1,6 @@
-RISCV_Single_Cycle_Core
+# RISCV_Single_Cycle_Core
 This repository contains the design files of RISC-V Single Cycle Core
 
-TOP Architecture
-<img width="1058" height="563" alt="image" src="https://github.com/user-attachments/assets/c496ec49-529a-455e-8472-b2fe6ee0b028" />
+# TOP Architecture
+![Screenshot from 2023-05-11 11-37-18](https://github.com/merldsu/RISCV_Single_Cycle_Core/assets/53592110/e42a2c6e-e97e-4313-9329-fb0c5882424b)
+
